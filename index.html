@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sample Cafe — one-page demo built by MORNING STAR WEB</title>
+    <meta
+      name="description"
+      content="A demonstration one-page website for an invented business, built by MORNING STAR WEB to prove our delivery path. Not a real business."
+    />
+    <meta name="robots" content="noindex" />
+    <style>
+      :root {
+        --ink: #14161a;
+        --muted: #5b6472;
+        --line: #e3e6ec;
+        --brand: #0f6b5c;
+        --bg: #ffffff;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      .demo-bar {
+        background: #111827;
+        color: #f9fafb;
+        font-size: 13px;
+        letter-spacing: 0.01em;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      .demo-bar strong { color: #7dd3c0; }
+      header, main, footer { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+      header { padding-top: 56px; }
+      h1 { font-size: 40px; line-height: 1.15; margin: 0 0 12px; letter-spacing: -0.02em; }
+      h2 { font-size: 22px; margin: 40px 0 8px; }
+      p { margin: 0 0 14px; }
+      .lede { font-size: 19px; color: var(--muted); }
+      .tag {
+        display: inline-block;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--brand);
+        border: 1px solid var(--brand);
+        border-radius: 999px;
+        padding: 3px 10px;
+        margin-bottom: 18px;
+      }
+      .cta {
+        display: inline-block;
+        background: var(--brand);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 12px 20px;
+        border-radius: 8px;
+        margin: 8px 0 0;
+      }
+      .cta.ghost { background: none; color: var(--brand); border: 1px solid var(--brand); margin-left: 8px; }
+      ul { padding-left: 20px; margin: 0 0 14px; }
+      li { margin-bottom: 6px; }
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 18px 20px;
+        margin: 24px 0;
+        background: #fbfcfd;
+      }
+      footer {
+        margin-top: 56px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+      }
+      a { color: var(--brand); }
+      @media (max-width: 520px) {
+        h1 { font-size: 30px; }
+        header { padding-top: 34px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="demo-bar">
+      <strong>DEMO PAGE</strong> — invented business, placeholder details. Built by MORNING STAR WEB to
+      prove a delivery path. Nothing here is a real company, and no real business is a customer of ours.
+    </div>
+
+    <header>
+      <span class="tag">Sample Cafe</span>
+      <h1>Good coffee, and somewhere to drink it.</h1>
+      <p class="lede">
+        A single-page site for a small coffee shop — opening hours, what we serve, and one clear way to
+        find us. This is the shape of our Starter build ($100, one page).
+      </p>
+      <a class="cta" href="#find-us">Find us</a>
+      <a class="cta ghost" href="#whats-here">What's on this page</a>
+    </header>
+
+    <main>
+      <h2 id="whats-here">What's on this page</h2>
+      <ul>
+        <li>One page, one business — no separate “about” or “contact” pages to keep up to date.</li>
+        <li>Readable on a phone, which is where most people will find it.</li>
+        <li>Opening hours, a short menu, and an address — the things a customer actually looks for.</li>
+        <li>No newsletter signup, no cookie banner, no pop-up. Nothing to maintain.</li>
+      </ul>
+
+      <h2>Opening hours</h2>
+      <p>Monday to Friday, 7am – 4pm · Saturday, 8am – 2pm · Closed Sunday.</p>
+
+      <h2>A few things we serve</h2>
+      <p>Filter coffee, flat white, tea, and a daily pastry. Placeholder menu — the real one would be yours.</p>
+
+      <h2 id="find-us">Find us</h2>
+      <div class="card">
+        <p>
+          Sample Cafe<br />
+          123 Example Street, Anytown<br />
+          Phone: (555) 010-0199
+        </p>
+        <p style="margin: 0">
+          These are placeholder details from a reserved block of fictional numbers — they belong to no
+          one, which is the point.
+        </p>
+      </div>
+
+      <h2>What this page is really proving</h2>
+      <p>
+        This page is the delivery path made real: a one-page site built for an
+        invented business, published to public hosting, and reachable over HTTPS at an address that is
+        live right now. Putting a customer's own domain on a page like this is the next step, and has not
+        been done yet. Nothing on it is a claim about sales, rankings or customers — because none of that
+        exists yet.
+      </p>
+    </main>
+
+    <footer>
+      Sample Cafe is an invented business created for this demonstration. Built by MORNING STAR WEB
+      (<a href="https://morningstarweb.ctonew.app/">morningstarweb.ctonew.app</a>).
+    </footer>
+  </body>
+</html>
